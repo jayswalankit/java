@@ -1,9 +1,6 @@
 
 import java.util.Scanner;
    
-
-
-
 public class Extra {
     int a=1;
     static int b=5;
