@@ -67,7 +67,7 @@ public class Laptop {
 
     System.out.println("enter your message");
     String s=sc.nextLine();
-    obj.start(s);
+    obj.start(sc.nextLine());
 
     System.out.println("enter new ram size");
     int upgrade=sc.nextInt();

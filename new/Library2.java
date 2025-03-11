@@ -49,9 +49,7 @@ public class Library2 {
 
         System.out.println(" charge  of library per hour");
         obj.membershipFee=sc.nextDouble();
-
         
-
         obj.Detail();
        
         
