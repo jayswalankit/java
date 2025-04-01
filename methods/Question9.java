@@ -6,7 +6,7 @@ public class Question9 {
         int fact = 5, result = 0;
         for (int i = 1; i <= n; i++) {
             result = fact * i;
-            System.out.println("result is=" + result);
+            System.out.println(  fact + " * " + i + " = " + result );
 
         }
 
@@ -21,6 +21,7 @@ public class Question9 {
     }
 
     public static void main(String[] args) {
+     
         Question9 q9 = new Question9();
         q9.table();
     }

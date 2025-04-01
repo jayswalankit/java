@@ -6,7 +6,7 @@ public class Bookstore {
     private int bookstoke;
     private double rating;
 
-public Bookstore(String name,String address,int bookstoke,double rating){
+ Bookstore(String name,String address,int bookstoke,double rating){
     this.name=name;
     this.address=address;
     this.bookstoke=bookstoke;

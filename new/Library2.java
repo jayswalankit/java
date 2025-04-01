@@ -37,7 +37,7 @@ public class Library2 {
 
         Scanner sc=new Scanner(System.in);
 
-        Library2 obj = new Library2();
+        Library4 obj = new Library4();
         System.out.println("enter your library name");
         obj.name=sc.nextLine();
 

@@ -21,7 +21,7 @@ class Employee {
     }
 
     public static void main(String[] args) {
-        Employee emp = new Employee("John Doe", 12345, "Engineering", 75000);
+        Employeee emp = new Employeee("John Doe", 12345, "Engineering", 75000);
         System.out.println();
     }
 }

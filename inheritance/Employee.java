@@ -1,4 +1,4 @@
-public class Employee extends Person {
+public class Employee extends Person2 {
     int salary;
     public Employee(String name,int salary){
         super(name);
@@ -7,10 +7,10 @@ public class Employee extends Person {
 
     public void display(){
         super.display();
-        System.out.println(100000 + salary);
+        System.out.println( salary);
     } 
     public static void main(String[] args) {
-        Employee obj=new Employee("Ayush", 50000);
+        Employee3 obj=new Employee3("Ayush", 50000);
         obj.display();
     }
 }
